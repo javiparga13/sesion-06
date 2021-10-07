@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+/* ver https://getbootstrap.com/docs/5.1/customize/css-variables */
+
+:root{
+	--bs-body-font-family: 'Merriweather', serif;
+	--bs-body-font-weight: 100;
+}
+body{
+	color:rgb(139, 8, 107);
+}
+
+h1,h2,h4,h5,h6{
+	font-weight: 600;
+}
+.card{
+	border-radius: 60px 60px 60px 4px;
+	
+}
+
+h1{
+	color: white;
+}
+
+h3{
+	font-size: calc(2rem + 3vw) ;
+	font-weight: 200;
+}
+
+@keyframes shake-it-off {
+  0% { transform:scale(0.98) }
+  100% { transform:scale(1.02) }
+}
+
+h3.movido{
+	animation: shake-it-off .2s infinite;
+}
+
+
+a{
+	color: #228fe9;
+	text-decoration: none;
+}
